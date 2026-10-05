@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Stado World">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6d5ef8"/>
+      <stop offset="48%" stop-color="#7d6ef8"/>
+      <stop offset="100%" stop-color="#af69ef"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".28"/>
+      <stop offset="60%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <rect width="64" height="64" rx="15" fill="url(#sheen)"/>
+  <g transform="translate(64 64) scale(2.6667) translate(-32 -32)" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 19V6.5a1 1 0 0 1 1.53-.85l11 6.35a1 1 0 0 1 0 1.68l-11 6.35A1 1 0 0 1 4 19Z"/>
+  </g>
+</svg>
