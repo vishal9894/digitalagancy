@@ -8,6 +8,7 @@ import Process from './components/Process'
 import Products from './components/Products'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Faq from './components/Faq'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -41,6 +42,7 @@ export default function App() {
         <Process />
         <Products />
         <Testimonials />
+        <Faq />
         <Contact />
       </main>
       <Footer />

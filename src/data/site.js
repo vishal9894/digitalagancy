@@ -4,6 +4,7 @@ export const NAV_LINKS = [
   { label: 'Results', href: '#results' },
   { label: 'Process', href: '#process' },
   { label: 'Products', href: '#products' },
+  { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -155,6 +156,9 @@ export const TESTIMONIALS = [
       'One of the oldest digital marketing people and companies I have known and worked with. Best in creativity, service, advice and delivery. The director himself is young, hence understands market trends and is passionate about the work. That itself is a relief.',
     name: 'Rishu Kumar Gupta',
     role: 'Owner, Aan — The Ethnic Store',
+    sector: 'Ecommerce',
+    tenure: '2 yrs',
+    rating: 5,
     accent: 'brand',
   },
   {
@@ -162,6 +166,9 @@ export const TESTIMONIALS = [
       'We serve traditional Rajasthani cuisine, and at the beginning it was difficult to let people know about the restaurant. That is when we decided to take on Stado’s digital marketing. The overall process was smooth, and I would definitely recommend them.',
     name: 'Dr. Hasnain',
     role: 'Owner, Dr. Hasnain Quaiar Clinic',
+    sector: 'Healthcare',
+    tenure: '1 yr',
+    rating: 5,
     accent: 'cyan',
   },
   {
@@ -169,6 +176,9 @@ export const TESTIMONIALS = [
       'I have been working with Stado Publication for a year now, and the results have been fantastic. They took the time to understand our business and created a strategy that boosted our online presence. Their team is professional, communicative, and always on top of things.',
     name: 'Pratik Nishant',
     role: 'Garg360',
+    sector: 'Brand & Growth',
+    tenure: '1 yr',
+    rating: 5,
     accent: 'mint',
   },
 ]
@@ -180,4 +190,39 @@ export const CHANNELS = [
   { label: 'Web', color: 'var(--color-amber-glow)' },
   { label: 'Email', color: 'var(--color-rose-glow)' },
   { label: 'Analytics', color: 'var(--color-brand-300)' },
+]
+
+export const FAQS = [
+  {
+    q: 'How long does it take to see results?',
+    a: 'It depends on the channel. Paid campaigns can produce qualified leads within the first two weeks once tracking is verified. SEO and content compound more slowly — expect meaningful movement between months three and six, with meaningful traction by month four for most of our clients. We set expectations with that timeline in writing before we start, so there are no surprises at the first review.',
+  },
+  {
+    q: 'Do you work with small businesses or only enterprise brands?',
+    a: 'Both. Roughly half our clients are early-stage founders and SMEs who need a focused, high-impact setup rather than a large retainer. The others are established brands scaling multi-channel. What matters is that we can move the metric you care about — whether that is first customers or market share.',
+  },
+  {
+    q: 'What does a monthly retainer include?',
+    a: 'A dedicated strategist, a channel specialist and a designer on your account. Monthly you get strategy and reporting, creative production, campaign management, landing page work, and unlimited revisions on live assets. Reporting is weekly and includes the raw dashboards — you can audit every number we quote.',
+  },
+  {
+    q: 'Am I locked into a long contract?',
+    a: 'No. Our standard engagement is month-to-month after an initial ninety-day ramp period. The ramp exists because SEO, content and paid media all need time to gather signal, and we would rather show you real evidence than keep you bound because of it. We keep clients by being useful, not by contract.',
+  },
+  {
+    q: 'Will you work with our existing website and brand?',
+    a: 'Always. We can audit and improve what you already have, or we can rebuild it. Most clients come to us with an established brand and a site that no longer reflects it. Either way we start by auditing your current setup so nothing that already works gets thrown away.',
+  },
+  {
+    q: 'Who actually does the work — in-house or outsourced?',
+    a: 'In-house. The people in your strategy call are the people doing the work. We do not subcontract delivery to third parties, which is why we take on a limited number of clients at a time. It also means when something needs to ship, it ships quickly without a handoff.',
+  },
+  {
+    q: 'How do you measure and report on performance?',
+    a: 'We connect GA4, Search Console, your ad platforms and your CRM or Shopify so the numbers tie out end to end. Reporting connects rankings to leads, leads to revenue, and performance trends to strategic planning. If a channel cannot be tied to revenue, we say so rather than dressing it up.',
+  },
+  {
+    q: 'What if I only need one service, like SEO?',
+    a: 'That is fine. We do not require a bundled package. Many clients start with a single channel — usually SEO or a website rebuild — and expand once they trust the reporting. We would rather earn the rest of the work than sell it upfront.',
+  },
 ]
